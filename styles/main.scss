@@ -1,0 +1,28 @@
+@import "./header/_header.scss";
+@import "./sections/sections.scss";
+@import "./fonts/fonts.scss";
+@import "./wrapper-section/wrapperSection.scss";
+@import "./footer/footer.scss";
+
+//---------- Media queries --------------------------------------------------------
+@media (min-width: 854px) and (max-width: 1200px){
+    .product-wrapper__img{
+        width: 45vw;
+    }
+}
+@media (min-width: 1200px){
+    .product-wrapper__img{
+        width: 49vw;
+    }
+}
+
+@media (min-width: 854px){
+    .footer-container__left,
+.footer-container__right p{
+    font-size: 2em;
+}
+}
+
+//---------- Fonts styles --------------------------------
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');

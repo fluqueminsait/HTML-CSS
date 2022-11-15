@@ -1,0 +1,18 @@
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1em;
+    justify-content: center;
+}
+
+.product-wrapper__img{
+    margin-top: 0.7em;
+    width: 100vw;
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

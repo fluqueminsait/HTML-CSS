@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(58, 58, 58);
+}
+
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-container img {
+    padding: 1em;
+    
+}
+
+header .header-container .imported-svg{
+    height: 30px;
+    width: 30px;
+    fill: rgb(219, 219, 218);
+}
+
+
+

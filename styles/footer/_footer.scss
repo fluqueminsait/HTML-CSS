@@ -1,0 +1,19 @@
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 247);
+}
+
+.footer-container__left,
+.footer-container__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container__left,
+.footer-container__right p{
+    color: grey;
+    font-family: 'Amatic SC', cursive;
+    
+}

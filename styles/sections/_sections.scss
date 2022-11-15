@@ -1,0 +1,60 @@
+.technical-service__p {
+    margin: 0.7em 1.2em;
+    text-align: center;
+}
+
+.technical-service p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.prime-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    width: 98vw;
+    height: 30em;
+    background-image: url("https://images.pexels.com/photos/14168781/pexels-photo-14168781.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.second-product{
+    margin-top: 0.7em;
+    width: 98vw;
+    height: 30em;
+    background-image: url("https://images.pexels.com/photos/1194760/pexels-photo-1194760.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__container h3{
+   margin-top: -0.6em;
+}
+
+.product__container p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: -1em;
+}
+
+.product__anchorsContainer{
+    display: flex;
+    gap: 2em;
+}
+
+
+
